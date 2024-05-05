@@ -10,7 +10,11 @@ export default {
 			},
 			fontFamily: {
 				inria: ["'Inria Sans' , sans-serif , serif"],
-				popiins: ["'Poppins' , sans-serif , serif"],
+				poppins: ["'Poppins' , sans-serif , serif"],
+				"inria-serif": ["'Inria Serif' , sans-serif"],
+			},
+			fontSize: {
+				"4xl": "40px",
 			},
 		},
 	},
