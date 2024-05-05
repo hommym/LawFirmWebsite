@@ -6,5 +6,24 @@
 @tailwind utilities;
 
 * {
-	@apply p-0 m-0 font-inria;
+	@apply p-0 m-0;
+}
+
+p,
+h3,
+li,
+a {
+	@apply font-inria text-desc;
+}
+
+h1,
+a {
+	@apply font-popiins text-white;
+}
+
+.footer_bg {
+	background: url("/vector-bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: black;
 }
