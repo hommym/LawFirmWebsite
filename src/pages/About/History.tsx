@@ -59,12 +59,12 @@ const History = () => {
 				<section className="w-full my-24">
 					<div className="w-full flex gap-8 items-start">
 						<div className="w-[23%] h-auto rounded-[5px] overflow-hidden">
-							<img src="https://alriyamiadvocates.com/wp-content/uploads/2023/08/Hassan-Al-Riyami.jpg" alt="" />
+							<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Nasser-Alkhamis-scaled-e1660628624513+(1).jpg" alt="" />
 						</div>
 						<div className="w-3/4">
 							<h1 className="text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner</h1>
 							<h3 className="text-2xl mb-6">
-								<span className="font-semibold text-4xl">Hassan Matar Al Riyami,</span>
+								<span className="font-semibold text-4xl">Nasser Yousuf Alkhamis,</span>
 								LL.B, LLM, MBA
 							</h3>
 
@@ -89,12 +89,12 @@ const History = () => {
 					</div>
 					<div className="w-full flex gap-8 mt-24 items-start">
 						<div className="w-[23%] h-auto rounded-[5px] overflow-hidden">
-							<img src="https://alriyamiadvocates.com/wp-content/uploads/2023/08/image-71.jpg" alt="" />
+							<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Sunil-Ambalavelil-2.jpg" alt="" />
 						</div>
 						<div className="w-3/4">
 							<h1 className="text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner & Director</h1>
 							<h3 className="text-2xl mb-6">
-								<span className="font-semibold text-4xl">Naser Muhyealdeen,</span>
+								<span className="font-semibold text-4xl">Sunil Ambalavelil,</span>
 								B.A., B.S., J.D.
 							</h3>
 

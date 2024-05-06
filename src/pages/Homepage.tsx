@@ -8,26 +8,30 @@ const Homepage = () => {
 		<div className="w-full relative min-h-screen bg-[green]">
 			<section className="w-full h-[93vh] border-b-[1px] bg-black hero_bg flex items-center justify-center flex-col">
 				<Header isTransparent={true} />
-				<h1 className="text-6xl font-bold w-[45%] text-center">Dubai's leading legal professionals</h1>
+				<h1 className="text-4xl capitalize font-bold w-[80%] text-center">Welcome To TRUONG LLC legal professionals</h1>
 				<p className="mt-6 text-xl text-white">Choose one of the most reputed law firms in the UAE</p>
 
-				<PrimaryButton text="Explore More" sx="mt-8" />
+				<PrimaryButton text="Explore More" href="/about/history" sx="mt-8 hover:bg-sec" />
 			</section>
 			<section className="w-full bg-black ">
 				<div className="w-full py-4 max-w-6xl mx-auto flex items-center justify-between">
 					<div className="w-2/3 flex items-center justify-between">
 						<div className="w-1/2 flex items-center justify-start gap-6">
-							<div className="w-20 h-20 bg-white rounded-full"></div>
+							<div className="w-20 h-20 bg-white rounded-full overflow-hidden">
+								<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Nasser-Alkhamis-scaled-e1660628624513+(1).jpg" alt="" />
+							</div>
 							<div>
 								<h3 className="text-sec">Founding Partner</h3>
-								<p>Hassan Matar Al Riyami</p>
+								<p className="text-white">Nasser Yousuf Alkhamis</p>
 							</div>
 						</div>
 						<div className="w-1/2 flex items-center justify-start gap-6">
-							<div className="w-20 h-20 bg-white rounded-full"></div>
+							<div className="w-20 h-20 bg-white rounded-full overflow-hidden">
+								<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Sunil-Ambalavelil-2.jpg" alt="" />
+							</div>
 							<div>
 								<h3 className="text-sec">Founding Partner</h3>
-								<p>Naser Muhyealdeen</p>
+								<p className="text-white">Sunil Ambalavelil</p>
 							</div>
 						</div>
 					</div>
