@@ -10,8 +10,6 @@ const Homepage = () => {
 				<Header isTransparent={true} />
 				<h1 className="text-2xl md:text-4xl capitalize font-bold w-[80%] text-center">Welcome To TRUONG LLC legal professionals</h1>
 				<p className="mt-6 text-center w-4/5 text-xl text-white">Choose one of the most reputed law firms in the UAE</p>
-
-				<PrimaryButton text="Explore More" href="/about/history" sx="mt-8 hover:bg-sec" />
 			</section>
 			<section className="w-full bg-black px-4">
 				<div className="w-full py-4 max-w-6xl mx-auto flex-col md:flex-row gap-8 md:0 flex md:items-center justify-between">

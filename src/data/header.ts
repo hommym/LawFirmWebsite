@@ -13,20 +13,7 @@ const links = [
       link: '/about/our-philosophy'
     }]
   },
-  {
-    name: 'Our Expertise',
-    check: '/expertise',
-    sub: [{
-      name: 'Our Team',
-      link: '/expertise/our-team'
-    }, {
-      name: 'Our Team',
-      link: '/expertise/our-team'
-    }, {
-      name: 'Our Team',
-      link: '/expertise/our-team'
-    }]
-  },
+
 ]
 
 export default links
