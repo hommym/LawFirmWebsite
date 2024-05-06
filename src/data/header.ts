@@ -1,6 +1,7 @@
 const links = [
   {
     name: 'About Us',
+    check: '/about',
     sub: [{
       name: 'Our Team',
       link: '/about/our-team'
@@ -14,15 +15,16 @@ const links = [
   },
   {
     name: 'Our Expertise',
+    check: '/expertise',
     sub: [{
       name: 'Our Team',
-      link: '/about/our-team'
+      link: '/expertise/our-team'
     }, {
       name: 'Our Team',
-      link: '/about/our-team'
+      link: '/expertise/our-team'
     }, {
       name: 'Our Team',
-      link: '/about/our-team'
+      link: '/expertise/our-team'
     }]
   },
 ]

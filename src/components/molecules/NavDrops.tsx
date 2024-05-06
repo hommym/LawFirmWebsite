@@ -6,13 +6,14 @@ import useCheckCursorOutsideParent from "../hooks/useCheckCursorOutsideParent";
 
 interface IDropDown {
 	name: string;
+	isActive?: boolean;
 	sub: {
 		name: string;
 		link: string;
 	}[];
 }
 
-const DropDown = ({ name, sub }: IDropDown) => {
+const DropDown = ({ name, sub, isActive }: IDropDown) => {
 	const [showSolutionDropdown, setShowSolutionDropdown] = useState(false);
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const parentRef = useRef<any>(null);
@@ -22,8 +23,8 @@ const DropDown = ({ name, sub }: IDropDown) => {
 		<div className="h-auto flex items-center justify-center" ref={parentRef}>
 			<div className={`relative ${showSolutionDropdown ? " md:rounded-full overflow-hidden md:overflow-visible" : ""}`}>
 				<button className="flex group items-center gap-[3px] justify-between">
-					<p className="text-white group-hover:text-sec  font-poppins text-sm">{name}</p>
-					<FiChevronDown className="group-hover:text-sec text-white " />
+					<p className={`${isActive ? "text-sec" : "text-white group-hover:text-sec"}  font-poppins text-sm"`}>{name}</p>
+					<FiChevronDown className={`${isActive ? "text-sec" : "group-hover:text-sec text-white"}`} />
 				</button>
 				{showSolutionDropdown && (
 					<>
