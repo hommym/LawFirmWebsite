@@ -13,16 +13,16 @@ const Footer = () => {
 							<div className="w-1/2 bg-[red] h-12 mt-4"></div>
 						</div>
 						<nav className="my-5 w-3/5 flex items-center justify-between">
-							<Link to="" className="text-white font-poppins text-sm">
+							<Link to="/terms-of-use" className="text-white font-poppins text-sm">
 								Terms & Conditions
 							</Link>
-							<Link to="" className="text-white font-poppins text-sm">
+							<Link to="/privacy-policy" className="text-white font-poppins text-sm">
 								Privacy Policies
 							</Link>
-							<Link to="" className="text-white font-poppins text-sm">
+							<Link to="/disclaimer" className="text-white font-poppins text-sm">
 								Disclaimer
 							</Link>
-							<Link to="" className="text-white font-poppins text-sm">
+							<Link to="/references" className="text-white font-poppins text-sm">
 								References
 							</Link>
 						</nav>

@@ -16,6 +16,9 @@ export default {
 			fontSize: {
 				"4xl": "40px",
 			},
+			maxWidth: {
+				"6xl": "1126px",
+			},
 		},
 	},
 	plugins: [],
