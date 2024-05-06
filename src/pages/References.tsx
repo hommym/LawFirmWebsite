@@ -15,9 +15,9 @@ const References = () => {
 	return (
 		<>
 			<Header sx="!relative" />
-			<div className="min-h-screen max-w-6xl m-auto py-16">
+			<div className="px-4 min-h-screen max-w-6xl m-auto py-16">
 				<Breadcrumbs links={links} />
-				<h3 className="text-black text-3xl font-semibold font-poppins my-8">References</h3>
+				<h3 className="text-black text-2xl md:text-3xl font-semibold font-poppins my-4 md:my-8">References</h3>
 				<ul className="list-disc pl-5 text-lg">
 					<li>Dispense Express, a multimillion dollars pharmaceutical company in California.</li>
 					<li>Emar Al Al Dir Alarabi and Oasis Developers owned by Shiekh Fahad Bin Rakan Hithleen in Saudi Arabia</li>

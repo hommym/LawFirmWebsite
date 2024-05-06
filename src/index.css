@@ -53,3 +53,22 @@ a {
 	background-size: 100% 105%;
 	background-position: 100% 50%;
 }
+
+@media screen and (max-width: 480px) {
+	.page_desc {
+		background-size: 200% 120%;
+		background-position: 60%10%;
+	}
+	.philosophy_banner {
+		background-size: 200% 120%;
+		background-position: 40% -20%;
+	}
+	.join_us {
+		background-size: 150% 100%;
+		background-position: 0% 50%;
+	}
+	.hero_bg {
+		background-size: 270% 100%;
+		background-position: 5% 60%;
+	}
+}

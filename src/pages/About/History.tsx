@@ -18,11 +18,11 @@ const History = () => {
 			<Header isTransparent={true} />
 			<PageDesc text="History & Commitment" />
 
-			<div className="w-full py-20 mx-auto max-w-6xl h-auto">
-				<section className="w-full flex items-stretch justify-between gap-12">
-					<div className="w-1/2">
+			<div className="w-full py-20 mx-auto max-w-6xl px-4 h-auto">
+				<section className="w-full flex flex-col md:flex-row items-stretch justify-between gap-12">
+					<div className="w-full md:w-1/2">
 						<Breadcrumbs links={links} />
-						<h1 className="text-black w-[90%] font-semibold my-8 text-4xl leading-[50px]">Tradition and Unwavering Dedication</h1>
+						<h1 className="text-black md:w-[90%] font-semibold my-4 md:my-8 text-3xl md:text-4xl md:leading-[50px]">Tradition and Unwavering Dedication</h1>
 
 						<p className="mb-4">
 							The firm is a collaboration of distinct legal practitioners in the United Arab Emirates -{" "}
@@ -42,8 +42,8 @@ const History = () => {
 						</p>
 					</div>
 
-					<div className="mt-8 w-1/2">
-						<div className="w-full h-[50vh] rounded-[10px] ">
+					<div className="mt-8 w-full md:w-1/2">
+						<div className="w-full md:h-[50vh] rounded-[10px] ">
 							<img src="https://alriyamiadvocates.com/wp-content/uploads/2023/05/law2.jpg" alt="" />
 						</div>
 
@@ -56,20 +56,20 @@ const History = () => {
 					</div>
 				</section>
 
-				<section className="w-full my-24">
-					<div className="w-full flex gap-8 items-start">
-						<div className="w-[23%] h-auto rounded-[5px] overflow-hidden">
+				<section className="w-full my-12 md:my-24">
+					<div className="w-full flex flex-col md:flex-row gap-8 items-start">
+						<div className="md:w-[23%] h-[300px] md:h-auto rounded-[5px] overflow-hidden">
 							<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Nasser-Alkhamis-scaled-e1660628624513+(1).jpg" alt="" />
 						</div>
-						<div className="w-3/4">
-							<h1 className="text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner</h1>
-							<h3 className="text-2xl mb-6">
-								<span className="font-semibold text-4xl">Nasser Yousuf Alkhamis,</span>
+						<div className="w-full md:w-3/4">
+							<h1 className="text-3xl md:text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner</h1>
+							<h3 className="text-xl md:text-2xl mb-6">
+								<span className="font-semibold text-3xl md:text-4xl">Nasser Yousuf Alkhamis,</span>
 								LL.B, LLM, MBA
 							</h3>
 
-							<div className="flex items-stretch justify-between gap-8">
-								<div className="w-1/2">
+							<div className="flex flex-col md;flex-row items-stretch justify-between gap-8">
+								<div className="md:w-1/2">
 									<p>
 										Mr. Hassan Matar Al Riyami, a prominent attorney in the United Arab Emirates, is a graduate of the Faculty of Law at the United Arab Emirates University (1989).
 										Since then, he has been properly registered as an attorney in the country. In addition to his law degree, he also holds a Certificate in Information (1997) and
@@ -77,7 +77,7 @@ const History = () => {
 									</p>
 								</div>
 
-								<div className="w-1/2">
+								<div className="md:w-1/2">
 									<p className="mb-5">Also, he is currently pursuing a Master of Business Administration from United Arab Emirates University.</p>
 									<p>
 										With his humble beginnings as a full-time attorney, he was able to get numerous legal consultancies in the region, specializing in contract drafting,
@@ -87,22 +87,22 @@ const History = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full flex gap-8 mt-24 items-start">
-						<div className="w-[23%] h-auto rounded-[5px] overflow-hidden">
+					<div className="w-full flex flex-col md:flex-row gap-8 mt-24 items-start">
+						<div className="md:w-[23%] h-[300px] md:h-auto rounded-[5px] overflow-hidden">
 							<img src="https://tlrwebsites.s3.eu-north-1.amazonaws.com/nyk.ae/teams/Sunil-Ambalavelil-2.jpg" alt="" />
 						</div>
-						<div className="w-3/4">
-							<h1 className="text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner & Director</h1>
-							<h3 className="text-2xl mb-6">
-								<span className="font-semibold text-4xl">Sunil Ambalavelil,</span>
+						<div className="md:w-3/4">
+							<h1 className="text-3xl md:text-4xl font-semibold text-sec pb-[3px] mb-4 border-b-[1px]">Founding Partner & Director</h1>
+							<h3 className="text-xl md:text-2xl mb-6">
+								<span className="font-semibold text-3xl md:text-4xl">Sunil Ambalavelil,</span>
 								B.A., B.S., J.D.
 							</h3>
 
-							<div className="flex items-stretch justify-between gap-8 mt-12">
-								<div className="w-1/2">
+							<div className="flex flex-col md:flex-row items-stretch justify-between gap-8 mt-12">
+								<div className="md:w-1/2">
 									<p>Naser Muhyealdeen is the founding partner and director of the Dubai office of Naser Muhiealdeen & Associates.</p>
 
-									<ul className="list-disc pl-10 my-5">
+									<ul className="list-disc pl-5 md:pl-10 my-5">
 										<li>Naser Muhyealdeen holds a B.A., a B.S., and a J.D.</li>
 										<li>Qualified Member of the Legal Affairs Division of the Dubai Government</li>
 										<li>Member of the UAE Rulers' Court as a Lawyer and Counsel</li>
@@ -119,7 +119,7 @@ const History = () => {
 									</p>
 								</div>
 
-								<div className="w-1/2">
+								<div className="md:w-1/2">
 									<p>
 										During the course of more than seventeen (17) years as an attorney, he has litigated more than two hundred (200) International Arbitration Cases against
 										well-known developers and business entities in the GCC region; his client satisfaction record is 95%. In addition, he has overseen and participated in over 500
