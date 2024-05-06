@@ -13,9 +13,7 @@
 
 #second-text {
 	text-align: center;
-	font-size: 45px;
 	color: #e1a119;
-	line-height: 54px;
 	font-weight: 600;
 }
 
@@ -31,12 +29,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 25px;
 }
 
 .text-field,
 #message-box {
-	width: 350px;
+	width: 100%;
 	border: 1.34091px solid #d1d5db;
 	border-radius: 6.70455px;
 	background: #fff;
@@ -50,10 +47,6 @@
 .text-field:focus,
 #message-box:focus {
 	outline-color: #be9030;
-}
-
-.left-side {
-	margin-right: 30px;
 }
 
 .labels {
@@ -77,10 +70,10 @@
 	align-items: center;
 	gap: 10px;
 	position: relative;
-	width: 161px;
+
 	height: 56px;
 	margin-inline: auto;
-	top: 35px;
+
 	background: #272727;
 	border-radius: 5px;
 	transition: opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1), transform 0.45s cubic-bezier(0.25, 1, 0.33, 1), border-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
@@ -89,4 +82,8 @@
 
 #submit-button:hover {
 	background: #be9030;
+}
+.left-side,
+.right-side {
+	width: 100%;
 }
