@@ -75,7 +75,7 @@ const Contact = () => {
 							<div className="w-full">
 								{/* <input id="message-box" placeholder="Leave us a message..." type="text" name="firstName"></input> */}
 								<div className="left-side ">
-									<div className="labels">Position*</div>
+									<div className="labels">Message*</div>
 									<textarea name="" id="" className="hover:outline-[#be9030] w-full p-4 h-48 rounded-[10px]  border-[1px] resize-none mx-auto"></textarea>
 								</div>
 							</div>
