@@ -33,12 +33,31 @@ const Contact = () => {
 			toast.error("Please provide all required fields", { autoClose: 1500 });
 			return;
 		}
-
+		if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+			toast.error("Please provide a valid email address", { autoClose: 1500 });
+			return;
+		}
+		if (!/^\+?[0-9\s-()]{8,}$/.test(tel)) {
+			toast.error("Please provide a valid phone number", { autoClose: 1500 });
+			return;
+		}
 		try {
 			setLoading(true);
-			await axios.post("https://truongllc.pro/api/contact-us");
-			toast.success("");
+			await axios.post("https://truongllc.pro/api/contact-us", {
+				firstName,
+				lastName,
+				email,
+				tel,
+				orgName,
+				address,
+				industryInfo,
+				position,
+				message,
+			});
+
+			toast.success("Your message was successfully sent...", { autoClose: 1500 });
 			setFormData(initial);
+			setLoading(false);
 		} catch (e) {
 			setLoading(false);
 		}
@@ -81,7 +100,7 @@ const Contact = () => {
 							<div className="right-side ml-0">
 								<div className="labels">Phone*</div>
 								<div>
-									<input className="text-field" onChange={storeData} value={formData?.tel as string} placeholder="+1-212-555-2345" type="text" name="tel"></input>
+									<input className="text-field" onChange={storeData} value={formData?.tel as string} placeholder="2125552345" type="text" name="tel"></input>
 								</div>
 							</div>
 						</div>
@@ -117,7 +136,7 @@ const Contact = () => {
 							<div className="w-full">
 								{/* <input id="message-box" placeholder="Leave us a message..." type="text" name="firstName"></input> */}
 								<div className="left-side ">
-									<div className="labels">Position*</div>
+									<div className="labels">Message*</div>
 									<textarea
 										name="message"
 										value={formData?.message as string}

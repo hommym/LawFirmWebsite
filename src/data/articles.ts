@@ -90,6 +90,137 @@ export const articlesData = [
     article:
       "Child abandonment remains a critical issue worldwide, with the United Arab Emirates (UAE) being no exception. The act of leaving a child without care or support exposes them to severe emotional, physical, and psychological risks. <br/><br/>Child abandonment in the UAE can stem from various factors. Economic challenges, such as poverty, place significant strain on parents, making it difficult to provide adequate care for their children. Social stigma, particularly around having a child out of wedlock, can also lead some parents to abandon their children due to fear of judgment or legal repercussions. Additionally, illegal immigration may contribute to child abandonment as parents hope that leaving their children behind will grant them better opportunities elsewhere. <br/><br/>The consequences of child abandonment are profound. Abandoned children face emotional trauma, physical hardships, and long-term psychological issues. They are deprived of the nurturing environment necessary for their healthy development, impacting their educational prospects, social integration, and overall well-being. <br/><br/>The UAE government has shown a strong commitment to combating child abandonment. Laws and regulations have been enacted to criminalize this act, holding parents accountable for their actions. The government has also implemented social welfare programs that offer counseling, financial aid, and support services to struggling families, ensuring they have the necessary resources. In addition, safe haven facilities, like baby hatcheries, allow parents to leave their newborns anonymously, providing an alternative to abandonment. Hospitals and foster homes have been established to offer medical care, check-ups, and adoption opportunities for abandoned children. <br/><br/>To address child abandonment effectively, raising public awareness is crucial. The UAE government conducts awareness campaigns through various platforms to disseminate information on this issue. Ensuring access to healthcare, education, and legal aid further contributes to preventing child abandonment and safeguarding the rights and well-being of every child in the UAE. <br/><br/>The UAE’s dedication to protecting vulnerable children is evident through its legislative measures, welfare programs, and awareness campaigns. By addressing the root causes of child abandonment and providing support to struggling families, the UAE strives to create a nurturing environment where every child can thrive, ensuring a brighter future for the nation.",
   },
+  {
+    category: "Corporate and Business Contracts Law",
+    mainTopic: "Extradition",
+    slugname: "extradition",
+    subTopic: "Extradition in the UAE",
+    article:
+      `<p>
+        Extradition is the legal process by which one country surrenders a criminal suspect or fugitive to another country and this plays a crucial role in maintaining global security and upholding the rule of law. The UAE’s extradition system is primarily governed by Federal Law No. 39 of 2006 concerning International Judicial Cooperation in Criminal Matters (the “Extradition Law”). This legislation outlines the procedures and conditions for requesting and granting extradition.
+        <br/><br/>
+        Under the Extradition Law, the UAE allows for the extradition of individuals who are accused or convicted of crimes in a foreign country, provided certain conditions are met. Such conditions include the existence of a mutual extradition treaty between the UAE and the requesting country or a principle of reciprocity. Moreover, the alleged offense must be considered a criminal offense in both the UAE and the requesting country.
+        <br/><br/>
+        The UAE has signed several extradition treaties with various countries to enhance international cooperation in fighting transnational crime. These treaties facilitate the extradition process by reorganization legal requirements and ensuring fairness in the treatment of suspects. Some of the notable extradition treaties include those with the United States, the United Kingdom, India, and many other Arab and European countries.
+        <br/><br/>
+        Despite having a structured legal framework, extradition cases in the UAE are not without challenges. One of the significant obstacles arises from the country’s approach to national sovereignty, which can lead to discretionary decisions by the UAE government in extradition matters. The government may refuse extradition requests if they believe the suspect might face the death penalty or ill-treatment in the requesting country.
+        <br/><br/>
+        Moreover, the concept of dual criminality, which requires that the alleged offense be recognized as a crime in both the UAE and the requesting state, can also create complexities. Differences in legal definitions and interpretations of offenses between jurisdictions may result in a refusal to extradite.
+        <br/><br/>
+        Over the years, the UAE has handled several high-profile extradition cases, drawing international attention and debate. Notably, the extradition of British national David Haigh, who was accused of financial crimes in Dubai, garnered significant media coverage and raised concerns about the country's legal procedures.
+        <br/><br/>
+        Additionally, the case of Princess Latifa bint Mohammed Al Maktoum, the daughter of the ruler of Dubai, drew global attention after she claimed that she was being held against her will and sought to escape the country. The incident prompted calls for investigations and raised questions about human rights and the treatment of detainees in the UAE.
+        <br/><br/>
+        Extradition is a complex legal process that plays a crucial role in maintaining international cooperation and combating cross-border crime. The UAE’s extradition system, governed by the Extradition Law and various bilateral treaties, is designed to facilitate such cooperation. However, challenges related to national sovereignty, dual criminality, and human rights concerns can make the process intricate.
+        <br/><br/>
+        As the UAE continues to evolve and grow on the global stage, it is essential for the country to strike a balance between protecting its citizens’ rights and fulfilling its international obligations. Through transparent and fair extradition practices, the UAE can reinforce its commitment to the rule of law and further strengthen its position in the international community.
+      </p>`
+  }, {
+    category: "Civil Law",
+    mainTopic: "Maritime Law",
+    slugname: "maritime-law",
+    subTopic: "Maritime Law in UAE | Maritime Lawyers in Dubai UAE",
+    article:
+      `<p>
+      United Arab Emirates have 14 operating commercial ports. Main ports include Jebel Ali in Dubai, Abu Dhabi, Sharjah and Fujairah. UAE ports contribute significantly to UAE gross domestic products and thousands of companies are currently engaged in maritime business. Among of these are leading container shipping companies and multinational shipping lines that have offices within UAE.
+      <br/><br/>
+      Federal Law No. 26 of 1981 serves as the main authority that deals with various maritime issues from vessel registration, ownership, mortgage, arrest, crew and their contracts, charter parties, collisions, salvage to general average maritime insurance.
+      <br/><br/>
+      Taking into consideration that UAE has become the center and evidently a perfect location for maritime activities and due to increasing need to implement a mandate that will effectively regulate and monitor pertinent issues faced by maritime operator, UAE Federal Transport Authority- Land and Maritime promulgated amendment on the Maritime Law that will boost Maritime Industry.
+      <br/>
+      The new promulgation offers resolution guidelines over issues faced by maritime companies in UAE. Among the major amendment to the new law comprises the following but not limited to:
+      </p>
+      
+      <ul>
+        <li>Allows non-UAE citizen to have 100% ownership for vessels registered in UAE</li>
+        <li>Vested authority to the State to deal and implement measures to fight drug and human trafficking occurring in foreign vessels within UAE territorial waters</li>
+        <li>Regulate registration and issuance of license for fishing boats below 10 tons</li>
+        <li>Approval of vessel mortgage by reducing quantum required from 50% to 70%</li>
+        <li>Widening the range of marine debts acceptable to arrest a vessel</li>
+        <li>Inclusion if new section regulating Marine Agents work and operations</li>
+        <li>Inclusion of new time bar clause regarding bareboat-chartered vessels</li>
+        <li>24 hours execution requirement notifying the debtor to pay the vessel auction has been abolished</li>
+        <li>New clause in regards to vessel repair has been added where the shipper will have an option to either wait the repairs to be completed or to discharge the cargo and re-ship unto another vessel</li>
+      </ul>
+      <p>
+        The new Maritime Law widely benefit the development and growth of the maritime industry. This law provides effective solutions and legal remedies taking into consideration all the necessary rules and regulations already in place. This law will bolster and encourage maritime operations in the United Arab Emirates.
+        <br/><br/>
+        As maritime lawyers in the UAE, Al Reyami Advocates and Muhyealdeen International Legal Consultants, draft contracts and handle all cases and suits relating to maritime law.
+        <br/><br/>
+        This includes carrier's liability for delay, damage or loss of goods with notifying the carrier as the case may be, arresting vessels in domestic ports, objecting to their arrest and lifting the arrest from them. In addition, the team has vast experience in drafting charter parties and vessel mortgage agreements, pursuing mortgage execution proceedings and handling marine insurance disputes relating to vessels/goods with claims of compensations for damages and losses.
+        <br/><br/>
+        We proactively offer advice to our maritime clients at an early stage in order to avoid possible later disputes.
+      </p>
+      `
+  }, {
+    category: "Civil Law",
+    mainTopic: "Debt Collection Lawyers",
+    slugname: "debt-collection-lawyers",
+    subTopic: "Debt Collection Lawyers Dubai | Debt Recovery Service UAE",
+    article:
+      `<p>
+      Our <span> advocates in Dubai </span> have highly experienced debt collection lawyers specializing in debt recovery through dispute resolution, mediation, negotiation, and settlement as well as criminal and civil litigation.
+      <br/><br/>
+      Debt collection encompasses overdue invoices for companies, personal debt to individuals, bank debt and even amounts owed on bounced cheques. The amounts involved range from a few thousand dirhams right up to multi-million dollar issues.
+    <br/><br/>
+      We can tailor recovery action to fit your specific circumstances and can act for the creditor or the debtor in these issues. Understanding the avenues and procedures allows our team to deliver successful resolutions wherever possible and judgement and the force of the UAE legal system where all other avenues exhausted.
+      </p>
+      
+      <h3> Why Law Firm Is Better Option For Collecting Debt </h3>
+      <p><span> Debt collection service </span> is the process of collecting payments of overdue debts owed by individuals and companies or businesses. As per UAE law, there is a statutory limitation which imposes 2 to 10 years’ time period for any individuals or companies to file any legal action or lawsuit against another for debt recovery. After this period lapse, the lender cannot file legal charges against you in a bid to recover the debt. However, it’s important to recognize that the debt will continue to exist, even if it’s rendered legally unrecoverable.
+      <br/><br/>
+      Law firms or lawyers act as debt collectors on behalf and as per the request of clients and companies. Lawyers are more able to collect any debt dues because of having extensive knowledge of the laws dealing with debt collection. Many people prefer to handle over any debt case to lawyers because they lack any knowledge on how best to proceed to collect any debt collection.
+      </p>
+      `
+  },
+  {
+    category: "Criminal Law",
+    mainTopic: "Embezzlement",
+    slugname: "embezzlement",
+    subTopic: "EMBEZZLEMENT IN THE UAE.",
+    article:
+      `<p>
+          Embezzlement, a form of financial fraud, is a serious offense that occurs across the globe, including the United Arab Emirates (UAE). Embezzlement involves misappropriating funds or assets entrusted to someone’s care for personal gain. Embezzlement cases often involve individuals in positions of trust, such as corporate executives, government officials, or employees with access to financial resources. These individuals exploit their authority and manipulate financial records to divert funds for personal use, without authorization or knowledge of the rightful owners. Embezzlement can take various forms, including fraudulent accounting practices, fictitious transactions, or the creation of shell companies to siphon off funds.
+          <br/><br/>
+          When someone commits the crime of embezzlement, they are thought to have obtained their possessions legally before illegally taking them. The legislation against embezzlement is covered by the “breach of trust” provisions of the UAE Penal Code. According to Article 453 of the UAE Penal Code, which deals with “breach of trust,” any person who receives movable property—such as money, documents, or any other kind—on the basis of a deposit, lease, mortgage, loan for consumption, or agency and embezzles it in an effort to cause harm to the property’s legitimate owners will be charged with a misdemeanor. A fine or up to three years in prison will be used to penalize such a person.
+          <br/><br/>
+          The consequences of embezzlement are severe in the UAE. The country has enacted laws and regulations to combat financial crimes and ensure transparency in business operations. The UAE Penal Code, Federal Law No. 3 of 1987, clearly defines embezzlement as a criminal offense. Offenders may face imprisonment, substantial fines, and the obligation to reimburse the misappropriated funds. Additionally, the UAE’s commitment to combatting corruption is evident through its participation in international agreements like the United Nations Convention against Corruption.
+          <br/><br/>
+          The UAE has established several institutions to tackle financial crimes, including embezzlement. The Dubai Financial Services Authority (DFSA) and the UAE’s Anti-Money Laundering and Suspicious Cases Unit (AMLSCU) play crucial roles in enforcing regulations, investigating financial misconduct, and collaborating with international counterparts to prevent money laundering and illicit financial activities.
+          <br/><br/>
+          A person is considered to be an “agent” of another if they are a co-owner of the asset, the intermediary managing the asset, or the recipient of the asset with the intent to use it for the owner’s advantage. Additionally, according to Article 454 of the UAE Penal Code, “any person who takes possession of lost property owned to another, with the intent to own it, or who knowingly takes possession of a property held by him by mistake or due to a force majeure, shall be liable to a jail sentence for a period not exceeding two (2) years or a fine not less than UAE Dirhams twenty thousand (AED 20,000).”
+          <br/><br/>
+          Furthermore, under Article 455 of the UAE Penal Code, “any person who embezzles or attempts to embezzle movable property that he has mortgaged as a collateral for a debt in his liability or in the liability of another person shall be liable to the penalty provided in the preceding Article.” If an owner who has been assigned as the receiver of his own moveable property under judicial or administrative seizure embezzles any of it, the same penalty will be applied.
+          <br/><br/>
+          To enhance transparency and corporate governance, the UAE has implemented robust regulatory frameworks. Publicly listed companies in the UAE adhere to stringent corporate governance standards, ensuring the effective oversight of financial activities and minimizing the risk of embezzlement. Furthermore, financial institutions have implemented anti-money laundering and know-your-customer procedures to mitigate the possibility of illicit financial flows.
+          <br/><br/>
+          Despite these preventive measures, embezzlement cases continue to surface in the UAE. Notable cases have involved high-ranking officials and corporate executives misusing their positions for personal enrichment. Such incidents not only undermine public trust but also have far-reaching consequences for the economy, leading to financial losses and reputational damage.
+          <br/><br/>
+          According to Article 325 of the UAE Penal Code, a person is also subject to imprisonment and fines if they make a false report to judicial or administrative authorities in bad faith accusing someone of committing an offence that could lead to criminal or administrative action against them. The false accuser will get the same punishment as the victim convict if the fraudulent offense resulted in a conviction and felony punishment.
+          <br/><br/>
+          To combat embezzlement effectively, the UAE is actively promoting awareness and education. The government, in collaboration with regulatory bodies, conducts workshops, seminars, and campaigns to educate individuals about the consequences of financial crimes. By fostering a culture of transparency, accountability, and ethical business practices, the UAE aims to prevent embezzlement and other fraudulent activities from occurring.
+          <br/><br/>
+          Additionally, the UAE is leveraging technology to strengthen its fight against embezzlement. The adoption of advanced data analytics, artificial intelligence, and machine learning algorithms enables authorities to identify irregularities, detect potential fraud patterns, and enhance risk management. These technological advancements bolster the UAE’s ability to proactively monitor financial transactions and investigate suspicious activities.
+          <br/><br/>
+          Overall, embezzlement poses a significant challenge in the UAE, despite the country's commitment to combating financial crimes and ensuring transparency. The UAE’s robust legal framework, regulatory institutions, and efforts to promote awareness are vital steps toward addressing this issue.
+          <br/><br/>
+          However, continuous vigilance, effective enforcement, and the integration of advanced technologies are necessary to deter embezzlement and maintain a secure and trustworthy business environment in the UAE.
+        </p>`
+  },
+  {
+    category: "Corporate and Business Contracts Law",
+    mainTopic: "Joint Venture",
+    slugname: "joint-venture",
+    subTopic: "Joint Venture Law in Dubai UAE | Hire Joint Venture Attorney in Dubai",
+    article:
+      `<p>
+          Whilst joint ventures and acquisitions can be viewed as an easier route into the Middle Eastern market, the peculiarities of a Middle Eastern business can make it anything but. We are here to help you if this is the option you choose. Our comprehensive service takes you through the entire process of the joint venture, ensuring that you do not make any critical mistakes.
+          <br/><br/>
+          Intelligent transactions and profitable deals make good business sense. Working your way through the mass of accounting, tax, regulatory, cultural, and labour issues you will encounter in UAE is critical to ensuring that you minimize your risks and maximize your returns.
+          <br/><br/>
+          Our transaction service and on-ground knowledge greatly improve the odds of a deal being successful in an environment that is not necessarily transparent. You would expect to be provided with complete and accurate information to make your critical decisions but often such information is not readily available and where it is, it is often difficult to evaluate. The success of any deal may hinge on the ability to discover and analyze the missing pieces. This is where we can help.
+        </p>`
+  },
 ];
 
 export const categories = ["All", "Civil Law", "Corporate and Business Contracts Law", "Criminal Law"]
