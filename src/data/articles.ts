@@ -5,14 +5,42 @@ export const articlesData = [
     "mainTopic": "Banking Law",
     "slugname": "banking-law",
     "subTopic": "Banking and Finance Law in UAE | Hire Expert Banking Lawyer in Dubai UAE",
-    "article": "When it comes to banking system, UAE is one of the most advance, reliable and has highly developed banking infrastructure. This level of development has become attainable because of the strict government regulations and measures implemented by United Arab Emirates Central Bank.\nThe UAE Central bank oversees and monitor all activities of banks in UAE. The process of obtaining a license for opening a financial institution in UAE is very difficult and that is the primary reason why UAE banking sector has become one of the most reputable banking institutions. Central bank serves the function of the main regulatory authority in UAE. It is responsible for handling most important regulatory task such as currency management, details the monetary policy line and exercise and implements banking regulations.\nThe banking system of UAE is governed under the applicable Banking Laws, which includes The Central Bank Law; Law of Islamic Banks; Circulars relating to Anti-Money Laundering (AMLSCU). Recently, UAE issued Federal Law No. 14 of 2018 which provide the structure of the UAE Central Bank and the organization of UAE financial institutions and their activities. Under the new law, Central Bank is in charged with the following:\nAdminister exclusive control over UAE currency\nMaintain and oversee UAE currency stability\nDevelop and direct credit policy to enhance UAE economy\nSupervise the banking system to ensure its effective implementation \nAdvisory function to the UAE government concerning financial and monetary issues \nMaintain the government reserves of foreign currency and gold\n "
+    "article": `When it comes to banking system, UAE is one of the most advance, reliable and has highly developed banking infrastructure. This level of development has become attainable because of the strict government regulations and measures implemented by United Arab Emirates Central Bank.
+    <br/><br/>
+    The UAE Central bank oversees and monitor all activities of banks in UAE. The process of obtaining a license for opening a financial institution in UAE is very difficult and that is the primary reason why UAE banking sector has become one of the most reputable banking institutions. Central bank serves the function of the main regulatory authority in UAE. It is responsible for handling most important regulatory task such as currency management, details the monetary policy line and exercise and implements banking regulations.
+    <br/><br/>
+    The banking system of UAE is governed under the applicable Banking Laws, which includes The Central Bank Law; Law of Islamic Banks; Circulars relating to Anti-Money Laundering (AMLSCU). Recently, UAE issued Federal Law No. 14 of 2018 which provide the structure of the UAE Central Bank and the organization of UAE financial institutions and their activities. Under the new law, Central Bank is in charged with the following:
+    <ul>
+      <li>Administer exclusive control over UAE currency</li>
+      <li>Maintain and oversee UAE currency stability</li>
+      <li>Develop and direct credit policy to enhance UAE economy</li>
+      <li>Supervise the banking system to ensure its effective implementation </li>
+      <li>Advisory function to the UAE government concerning financial and monetary issues</li>
+      <li>Maintain the government reserves of foreign currency and gold</li>
+    </ul>
+    <div>
+      <h3>Hire Expert Banking Lawyer in Dubai UAE</h3>
+      <p>UAE Central Bank aims to ensure transparency of bank activities, for this purpose they issued regulations that define the guidelines the way of providing banking services. At the same time, certain requirements are imposed and standard list of supporting documents are required in opening bank account in UAE. Among these banking regulations includes:</p>
+    
+      <ul>
+        <li>Prohibition on the issuance of credit cards and grant of loans over the phone by any banking institutions and financial companies;</li>
+        <li>Maximum amount of personal loan that can be granted to a borrower is equal to 20 monthly salaries;</li>
+        <li>No person or legal entity will be allowed to open a bank account unless confirmation of UAE residence has been met</li>
+        <li>Supporting documents that are mandatory in opening bank accounts includes: Passport with UAE residence visa or UAE citizenship, salary certificate or confirmation of source of income, NOC from the employer or similar document.</li>
+      </ul>
+      </div>
+    `
   },
   {
     "category": "Civil Law",
     "mainTopic": "Bankruptcy Law, Liquidation, and Insolvency",
     "slugname": "bankruptcy-law-liquidation-and-insolvency",
     "subTopic": "Liquidation Lawyers | Bankruptcy Insolvency and Liquidation Law in UAE",
-    "article": "Are you the owner, partner, manager of a commercial company duly registered in the UAE that is struggling to pay your creditors? Are you undergoing a business downturn and seek legal solutions to solve your financial problems?\nThen look no further and come to Al Riyami Advocates and fully learn how to protect yourself: The Federal Bankruptcy Law issued under the federal decree No. (9) for 2016 on various bankruptcy cases. The law identifies different ways to avoid bankruptcy cases and the liquidation of debtors’ assets, including consensual out-of-court financial restructuring, composition procedures, financial restructuring and the potential to secure new loans under terms set by the law. Businessmen will no longer have to face arrest or legal prosecution for unpaid debts, nor do they have to flee the country – as many had done in the past – to avoid jail term following the implementation of the landmark UAE Bankruptcy law.\nMake Al Reyami & Muhyealdeen law office in Dubai UAE your first choice when deciding on declaring commercial Bankruptcy: Many clients fail to realize the full benefits of the current bankruptcy laws either because they do not know the process or they seek help from organizations which do not specialize in this process. Here, knowledge is power, there are so many steps to take for a successful outcome, since the bankruptcy restructuring committee was only put in place March 1st, 2018, few firms have experience with the new law and procedures. Current law firms and consultancies will just push for liquidation, since this is what they have been doing for years, and just too busy with other services they provide.\nOur legal experts specialize in this process, with the sole purpose of settling your companies debts and having removed any potential criminal liabilities through the implementation of this new law."
+    "article": `Are you the owner, partner, manager of a commercial company duly registered in the UAE that is struggling to pay your creditors? Are you undergoing a business downturn and seek legal solutions to solve your financial problems?
+    <br/><br/>
+    Then look no further and come to Al Riyami Advocates and fully learn how to protect yourself: The Federal Bankruptcy Law issued under the federal decree No. (9) for 2016 on various bankruptcy cases. The law identifies different ways to avoid bankruptcy cases and the liquidation of debtors’ assets, including consensual out-of-court financial restructuring, composition procedures, financial restructuring and the potential to secure new loans under terms set by the law. Businessmen will no longer have to face arrest or legal prosecution for unpaid debts, nor do they have to flee the country – as many had done in the past – to avoid jail term following the implementation of the landmark UAE Bankruptcy law.
+    <br/><br/>
+    Make Al Reyami & Muhyealdeen law office in Dubai UAE your first choice when deciding on declaring commercial Bankruptcy: Many clients fail to realize the full benefits of the current bankruptcy laws either because they do not know the process or they seek help from organizations which do not specialize in this process. Here, knowledge is power, there are so many steps to take for a successful outcome, since the bankruptcy restructuring committee was only put in place March 1st, 2018, few firms have experience with the new law and procedures. Current law firms and consultancies will just push for liquidation, since this is what they have been doing for years, and just too busy with other services they provide.\nOur legal experts specialize in this process, with the sole purpose of settling your companies debts and having removed any potential criminal liabilities through the implementation of this new law.`
   },
   {
     "category": "Civil Law",

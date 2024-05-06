@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 import Breadcrumbs, { ILink } from "../../components/molecules/Breadcrumbs";
 import Header from "../../components/molecules/Header";
@@ -19,6 +19,8 @@ const links: ILink[] = [
 const Expertise = () => {
 	const [filter, setFilter] = useState("all");
 	const [expertise, setExpertise] = useState(articlesData);
+	const [searchParams] = useSearchParams();
+	const category = searchParams.get("category");
 
 	useEffect(() => {
 		if (filter === "all") return setExpertise(articlesData);
@@ -26,6 +28,11 @@ const Expertise = () => {
 		// Filter
 		setExpertise(articlesData.filter((article) => article?.category?.toLowerCase()?.trim() === filter?.trim()));
 	}, [filter]);
+
+	useEffect(() => {
+		if (!category) return;
+		setFilter(category);
+	}, [category]);
 	return (
 		<div className="w-full min-h-screen">
 			<Header isTransparent={true} />

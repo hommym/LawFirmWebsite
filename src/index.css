@@ -72,3 +72,18 @@ a {
 		background-position: 5% 60%;
 	}
 }
+
+.text-editor ul {
+	@apply my-6 list-disc pl-7;
+}
+.text-editor p,
+.text-editor li {
+	@apply text-[16px];
+}
+
+.text-editor li {
+	@apply mb-[3px];
+}
+.text-editor h3 {
+	@apply mb-2 font-bold font-poppins text-2xl;
+}
