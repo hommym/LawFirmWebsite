@@ -23,7 +23,7 @@ const Header = ({ isTransparent = false, sx = "" }: { isTransparent?: boolean; s
 					{links?.map((link, index) => (
 						<DropDown {...link} key={index} isActive={pathname?.startsWith(link.check)} />
 					))}
-					<Link className={`py-8  ${pathname === "/expertise" ? "text-sec" : "text-white hover:text-sec"} text-sm`} to="/our-clients">
+					<Link className={`py-8  ${pathname === "/expertise" ? "text-sec" : "text-white hover:text-sec"} text-sm`} to="/expertise">
 						Our Expertise
 					</Link>
 					<Link className={`py-8  ${pathname === "/our-clients" ? "text-sec" : "text-white hover:text-sec"} text-sm`} to="/our-clients">

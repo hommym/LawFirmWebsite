@@ -11,6 +11,8 @@ import Disclaimer from "./pages/Disclaimer";
 import PrivacyPolicy from "./pages/PrivacyPolicies";
 import TermsOfUse from "./pages/TermsAndConditions";
 import { useEffect } from "react";
+import Expertise from "./pages/Expertise/Expertise";
+import SingleExpertise from "./pages/Expertise/SingleExpertise";
 
 function App() {
 	const { pathname } = useLocation();
@@ -35,6 +37,9 @@ function App() {
 					<Route path="disclaimer" element={<Disclaimer />}></Route>
 					<Route path="privacy-policy" element={<PrivacyPolicy />}></Route>
 					<Route path="terms-of-use" element={<TermsOfUse />}></Route>
+
+					<Route path="expertise" element={<Expertise />}></Route>
+					<Route path="expertise/:slugname" element={<SingleExpertise />}></Route>
 				</Route>
 			</Routes>
 		</main>
