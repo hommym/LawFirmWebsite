@@ -21,7 +21,9 @@ a {
 }
 
 .footer_bg,
-.join_us {
+.join_us,
+.page_desc,
+.philosophy_banner {
 	background: url("/vector-bg.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -38,4 +40,13 @@ a {
 
 .join_us {
 	background: url("/exceptional-team-bg.jpg");
+}
+.page_desc {
+	background: url("/philosophy.jpg");
+	background-size: cover;
+}
+.philosophy_banner {
+	background: url("/golden-scale.png");
+	background-size: 100% 105%;
+	background-position: 100% 50%;
 }

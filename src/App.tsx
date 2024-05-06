@@ -15,7 +15,7 @@ function App() {
 					<Route index element={<Homepage />}></Route>
 					<Route path="contact" element={<Contact />}></Route>
 
-					<Route path="contact">
+					<Route path="about">
 						<Route path="our-philosophy" element={<Philosophy />}></Route>
 						<Route path="history" element={<History />}></Route>
 						<Route path="our-team" element={<Team />}></Route>

@@ -1,5 +1,7 @@
 import PrimaryButton from "../components/atoms/PrimaryButton";
 
+import WhoWeAreImage from "../assets/who-we-are.jpeg";
+
 const Homepage = () => {
 	return (
 		<div className="w-full min-h-screen bg-[green]">
@@ -33,7 +35,7 @@ const Homepage = () => {
 
 			<section id="who" className="bg-white py-20">
 				<div className="w-full max-w-6xl mx-auto flex items-stretch justify-between gap-12">
-					<article className="w-2/3">
+					<article className="w-3/5">
 						<h3 className="mb-3 font-semibold">WHO WE ARE</h3>
 						<h1 className="text-sec font-semibold mb-8 text-4xl leading-[45px]">Our firm is home to Dubai's most qualified legal experts.</h1>
 
@@ -44,22 +46,24 @@ const Homepage = () => {
 							businesses.
 						</p>
 
-						<div className="flex mt-8 items-center justify-between">
+						<div className="flex mt-8 items-center gap-2 justify-between">
 							<div className="flex items-end justify-start gap-3 w-full">
-								<h3 className="text-6xl font-semibold font-inria-serif text-black">7,000</h3>
+								<h3 className="text-5xl font-semibold font-inria-serif text-black">7,000</h3>
 								<p className="font-medium font-poppins text-[16px]">Court Cases</p>
 							</div>
 							<div className="flex items-end justify-start gap-3 w-full">
-								<h3 className="text-6xl font-semibold font-inria-serif text-black">300</h3>
+								<h3 className="text-5xl font-semibold font-inria-serif text-black">300</h3>
 								<p className="font-medium font-poppins text-[16px]">Arbitration Proceedings</p>
 							</div>
 							<div className="flex items-end justify-start gap-3 w-full">
-								<h3 className="text-6xl font-semibold font-inria-serif text-black">25</h3>
+								<h3 className="text-5xl font-semibold font-inria-serif text-black">25</h3>
 								<p className="font-medium font-poppins text-[16px]">Years of Experience</p>
 							</div>
 						</div>
 					</article>
-					<article className="w-1/3 h-[80vh] bg-[red]"></article>
+					<article className="w-2/5 h-[80vh] bg-[red]">
+						<img src={WhoWeAreImage} className="w-[300%] h-full" alt="" />
+					</article>
 				</div>
 			</section>
 
