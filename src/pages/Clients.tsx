@@ -1,9 +1,11 @@
+import Header from "../components/molecules/Header";
 import PageDesc from "../components/molecules/PageDesc";
 import clients from "../data/clients";
 
 const Clients = () => {
 	return (
-		<div className="min-h-screen">
+		<div className="relative min-h-screen">
+			<Header isTransparent={true} />
 			<PageDesc text="Clients" />
 
 			<section className="w-full bg-white py-12 pb-24">

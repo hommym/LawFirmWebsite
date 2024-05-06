@@ -1,6 +1,7 @@
 import Breadcrumbs, { ILink } from "../../components/molecules/Breadcrumbs";
 import PageDesc from "../../components/molecules/PageDesc";
 import PrimaryButton from "../../components/atoms/PrimaryButton";
+import Header from "../../components/molecules/Header";
 
 const links: ILink[] = [
 	{
@@ -15,8 +16,10 @@ const links: ILink[] = [
 
 const Philosophy = () => {
 	return (
-		<div className="w-full min-h-screen">
+		<div className="w-full relative min-h-screen">
+			<Header isTransparent={true} />
 			<PageDesc text="Our Philosophy" />
+
 			<section id="who" className="bg-white py-20">
 				<div className="w-full max-w-6xl mx-auto flex items-stretch justify-between gap-12">
 					<article className="w-1/2">

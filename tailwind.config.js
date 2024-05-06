@@ -7,6 +7,7 @@ export default {
 				desc: "#454545",
 				sec: "#e1a119",
 				primary: "#000000",
+				sec2: "#a78229",
 			},
 			fontFamily: {
 				inria: ["'Inria Sans' , sans-serif , serif"],

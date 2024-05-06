@@ -1,11 +1,13 @@
 import PrimaryButton from "../components/atoms/PrimaryButton";
+import Header from "../components/molecules/Header";
 
 import WhoWeAreImage from "../assets/who-we-are.jpeg";
 
 const Homepage = () => {
 	return (
-		<div className="w-full min-h-screen bg-[green]">
+		<div className="w-full relative min-h-screen bg-[green]">
 			<section className="w-full h-[93vh] border-b-[1px] bg-black hero_bg flex items-center justify-center flex-col">
+				<Header isTransparent={true} />
 				<h1 className="text-6xl font-bold w-[45%] text-center">Dubai's leading legal professionals</h1>
 				<p className="mt-6 text-xl text-white">Choose one of the most reputed law firms in the UAE</p>
 

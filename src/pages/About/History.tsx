@@ -1,4 +1,5 @@
 import Breadcrumbs, { ILink } from "../../components/molecules/Breadcrumbs";
+import Header from "../../components/molecules/Header";
 import PageDesc from "../../components/molecules/PageDesc";
 
 const links: ILink[] = [
@@ -13,7 +14,8 @@ const links: ILink[] = [
 ];
 const History = () => {
 	return (
-		<div className="min-h-screen">
+		<div className="relative min-h-screen">
+			<Header isTransparent={true} />
 			<PageDesc text="History & Commitment" />
 
 			<div className="w-full py-20 mx-auto max-w-6xl h-auto">
