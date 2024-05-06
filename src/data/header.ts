@@ -1,6 +1,7 @@
 const links = [
   {
     name: 'About Us',
+    check: '/about',
     sub: [{
       name: 'Our Team',
       link: '/about/our-team'
@@ -12,19 +13,7 @@ const links = [
       link: '/about/our-philosophy'
     }]
   },
-  {
-    name: 'Our Expertise',
-    sub: [{
-      name: 'Our Team',
-      link: '/about/our-team'
-    }, {
-      name: 'Our Team',
-      link: '/about/our-team'
-    }, {
-      name: 'Our Team',
-      link: '/about/our-team'
-    }]
-  },
+
 ]
 
 export default links

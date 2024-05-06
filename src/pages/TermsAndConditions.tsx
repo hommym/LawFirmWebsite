@@ -15,9 +15,9 @@ const TermsOfUse = () => {
 	return (
 		<>
 			<Header sx="!relative" />
-			<div className="min-h-screen max-w-6xl m-auto py-16">
+			<div className="px-4 min-h-screen max-w-6xl m-auto py-16">
 				<Breadcrumbs links={links} />
-				<h3 className="text-black text-3xl font-semibold font-poppins my-8">Terms of Use</h3>
+				<h3 className="text-black text-2xl md:text-3xl font-semibold font-poppins my-4 md:my-8">Terms of Use</h3>
 				<div className="mb-8">
 					<h3 className="font-semibold mb-3 text-xl font-poppins">Introduction</h3>
 					<p className="text-lg">

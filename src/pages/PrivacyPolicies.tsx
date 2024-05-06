@@ -15,9 +15,9 @@ const PrivacyPolicy = () => {
 	return (
 		<>
 			<Header sx="!relative" />
-			<div className="min-h-screen max-w-6xl m-auto py-16">
+			<div className="min-h-screen max-w-6xl m-auto py-16 px-4">
 				<Breadcrumbs links={links} />
-				<h3 className="text-black text-3xl font-semibold font-poppins my-8">Privacy Policy</h3>
+				<h3 className="text-black text-2xl md:text-3xl font-semibold font-poppins my-4 md:my-8">Privacy Policy</h3>
 				<div className="mb-8">
 					<p className="text-lg mb-6">
 						This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in

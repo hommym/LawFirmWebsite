@@ -1,4 +1,5 @@
 @import url("./css/contact.css");
+@import "react-toastify/dist/ReactToastify.css";
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
@@ -52,4 +53,38 @@ a {
 	background: url("/golden-scale.png");
 	background-size: 100% 105%;
 	background-position: 100% 50%;
+}
+
+@media screen and (max-width: 480px) {
+	.page_desc {
+		background-size: 200% 120%;
+		background-position: 60%10%;
+	}
+	.philosophy_banner {
+		background-size: 200% 120%;
+		background-position: 40% -20%;
+	}
+	.join_us {
+		background-size: 150% 100%;
+		background-position: 0% 50%;
+	}
+	.hero_bg {
+		background-size: 270% 100%;
+		background-position: 5% 60%;
+	}
+}
+
+.text-editor ul {
+	@apply my-6 list-disc pl-7;
+}
+.text-editor p,
+.text-editor li {
+	@apply text-[16px];
+}
+
+.text-editor li {
+	@apply mb-[3px];
+}
+.text-editor h3 {
+	@apply mb-2 font-bold font-poppins text-2xl;
 }

@@ -15,9 +15,9 @@ const Disclaimer = () => {
 	return (
 		<div className="w-full">
 			<Header sx="!relative" />
-			<div className="min-h-screen relative max-w-6xl m-auto py-16">
+			<div className="min-h-screen relative max-w-6xl m-auto px-4 py-16">
 				<Breadcrumbs links={links} />
-				<h3 className="text-black text-3xl font-semibold font-poppins my-8">Disclaimer</h3>
+				<h3 className="text-black text-2xl md:text-3xl font-semibold font-poppins my-4 md:my-8">Disclaimer</h3>
 				<div className="mb-8">
 					<h3 className="font-semibold text-xl font-poppins">No Attorney-Client Relationship Created by Use of this Website:</h3>
 					<p className="text-lg">
