@@ -38,7 +38,6 @@ a {
 	background: url("/hero-banner.jpg");
 	/* background-size: 120% 100%; */
 	background-size: cover;
-	/* background-position: 55% 100%; */
 	background-repeat: no-repeat;
 	background-color: black;
 }
@@ -70,8 +69,8 @@ a {
 		background-position: 0% 50%;
 	}
 	.hero_bg {
-		background-size: 270% 100%;
-		background-position: 5% 60%;
+		background-size: 250% 100%;
+		background-position: 15% 60%;
 	}
 }
 

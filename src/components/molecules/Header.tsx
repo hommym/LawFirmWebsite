@@ -13,7 +13,7 @@ const Header = ({ isTransparent = false, sx = "" }: { isTransparent?: boolean; s
 	const { pathname } = useLocation();
 	const [showMobileMenu, setShowMobileMenu] = useState(false);
 	return (
-		<header className={`${sx} ${!isTransparent ? "bg-white" : "bg-transparent"} absolute px-4 w-full py-2 top-0 left-0`}>
+		<header className={`${sx} ${!isTransparent ? "bg-white" : "bg-transparent"} absolute z-[4] px-4 w-full py-2 top-0 left-0`}>
 			<div className="w-full flex items-center h-auto  max-w-6xl justify-between mx-auto">
 				<Link to="/" className="w-[200px] md:w-[300px] md:h-18">
 					<img src={LogoImage} alt="" className="w-full h-full" />
@@ -34,7 +34,7 @@ const Header = ({ isTransparent = false, sx = "" }: { isTransparent?: boolean; s
 					</Link>
 				</nav>
 
-				<button className="md:hidden w-8 h-8 bg-sec flex items-center justify-center" onClick={() => setShowMobileMenu(true)}>
+				<button className="md:hidden w-8 h-8 bg-black text-white flex items-center justify-center" onClick={() => setShowMobileMenu(true)}>
 					<AiOutlineMenuFold className="text-2xl" />
 				</button>
 			</div>

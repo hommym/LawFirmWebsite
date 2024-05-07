@@ -5,11 +5,14 @@ import WhoWeAreImage from "../assets/who-we-are.jpeg";
 
 const Homepage = () => {
 	return (
-		<div className="w-full relative min-h-screen bg-[green]">
-			<section className="w-full h-[60vh] md:h-[93vh] border-b-[1px] bg-black hero_bg flex items-center justify-center flex-col">
+		<div className="w-full relative min-h-screen">
+			<section className="w-full h-[60vh] relative md:h-[93vh] border-b-[1px] backdrop-blur-lg hero_bg flex items-center justify-center flex-col">
 				<Header isTransparent={true} />
-				<h1 className="text-2xl md:text-4xl capitalize font-bold w-[80%] text-center">Welcome To TRUONG LLC legal professionals</h1>
-				<p className="mt-6 text-center w-4/5 text-xl text-white">Choose one of the most reputed law firms in the UAE</p>
+				<div className="w-full h-full bg-black bg-opacity-25 md:bg-opacity-10 absolute top-0 left-0 z-[1]"></div>
+				<div className="w-full flex items-center justify-center relative z-[2] flex-col">
+					<h1 className="text-2xl md:text-4xl text-text capitalize font-bold w-[80%] text-center">Welcome To TRUONG LLC legal professionals</h1>
+					<p className="mt-6 text-center w-4/5 text-xl text-text text-white">Choose one of the most reputed law firms in the UAE</p>
+				</div>
 			</section>
 			<section className="w-full bg-black px-4">
 				<div className="w-full py-4 max-w-6xl mx-auto flex-col md:flex-row gap-8 md:0 flex md:items-center justify-between">
