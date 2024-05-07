@@ -22,7 +22,7 @@ const TermsOfUse = () => {
 					<h3 className="font-semibold mb-3 text-xl font-poppins">Introduction</h3>
 					<p className="text-lg">
 						These terms and conditions, as well as any other additional terms, conditions, notices and disclaimers displayed elsewhere on this Website [
-						<span className="text-sec">www.alriyamiadvocates.com</span>] (<span className="text-black font-semibold">Terms</span>
+						<span className="text-sec">https://truongllc.pro/</span>] (<span className="text-black font-semibold">Terms</span>
 						) apply to your use of this Website. Please read these Terms carefully before accessing or using the information and services available through this Website. These Terms may be
 						modified from time to time without notice to you and you should therefore regularly review these Terms for any such modifications. <br />
 						<br />
@@ -102,10 +102,10 @@ const TermsOfUse = () => {
 						<br />
 						<br />
 						Thank you for your cooperation. We hope you find the Website helpful and convenient to use. If you have questions or comments regarding this website please email us at
-						<span className="text-sec"> info@alriyamiadvocates.com.</span>
+						<span className="text-sec"> info@truongllc.pro.</span>
 						<br />
 						<br />
-						If there are any technical problems with this Website, contact us at <span className="text-sec"> info@alriyamiadvocates.com.</span>
+						If there are any technical problems with this Website, contact us at <span className="text-sec"> info@truongllc.pro.</span>
 					</p>
 				</div>
 			</div>
