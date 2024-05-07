@@ -36,8 +36,9 @@ a {
 
 .hero_bg {
 	background: url("/hero-banner.jpg");
-	background-size: 120% 100%;
-	background-position: 55% 100%;
+	/* background-size: 120% 100%; */
+	background-size: cover;
+	/* background-position: 55% 100%; */
 	background-repeat: no-repeat;
 	background-color: black;
 }

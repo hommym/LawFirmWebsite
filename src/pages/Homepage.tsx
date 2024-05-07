@@ -33,7 +33,7 @@ const Homepage = () => {
 							</div>
 						</div>
 					</div>
-					<PrimaryButton text="View All Attorneys" sx="!bg-transparent border-[1px] !py-3" textSx="text-white !text-lg font-inria" />
+					<PrimaryButton text="View All Attorneys" sx="!bg-transparent border-[1px] !py-3" textSx="text-white !text-lg font-inria" href="/about/our-team" />
 				</div>
 			</section>
 
