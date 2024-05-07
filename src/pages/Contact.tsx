@@ -71,9 +71,9 @@ const Contact = () => {
 						CONTACT US
 					</h4>
 
-					<h2 id="second-text" className="text-xl md:mt-2 md:mb-6 md:text-5xl">
-						Book a Consultation
-					</h2>
+          <h2 id="second-text" className="text-xl md:mt-2 md:mb-6 md:text-5xl">
+            Book a Consultation
+          </h2>
 
 					<form id="form-section" className="max-w-[700px]  mx-auto py-4" method="post" aria-label="Contact form">
 						<div className="contact-row gap-4 mt-2 md:mt-6 md:gap-8 flex-col md:flex-row">

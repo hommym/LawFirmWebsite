@@ -1,4 +1,3 @@
-
 export const articlesData = [
   {
     category: "Civil Law",
@@ -223,5 +222,4 @@ export const articlesData = [
   },
 ];
 
-export const categories = ["All", "Civil Law", "Corporate and Business Contracts Law", "Criminal Law"]
-
+export const categories = ["All", "Civil Law", "Corporate and Business Contracts Law", "Criminal Law"];

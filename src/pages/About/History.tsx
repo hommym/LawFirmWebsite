@@ -26,10 +26,10 @@ const History = () => {
 
 						<p className="mb-4">
 							The firm is a collaboration of distinct legal practitioners in the United Arab Emirates -{" "}
-							<span className="text-sec">Mr. Hassan Matar Al Riyami, LLB, LLM, MBA and Mr. Naser Muhyealdeen, Bachelor of Law, Juris Doctor in Law</span>
+							<span className="text-sec">Mr.Nasser Yousuf Alkhamis, LLB, LLM, MBA and Mr. Sunil Ambalavelil,, Bachelor of Law, Juris Doctor in Law</span>
 						</p>
 						<p className="mb-4">
-							Both Mr. Hassan Matar Al Riyami, LLB, LLM, MBA, and Mr. Naser Muhyealdeen, Bachelor of Law, Juris Doctor in Law, are well-respected members of the legal community in the
+							Both Mr. Nasser Yousuf Alkhamis, LLB, LLM, MBA, and Mr. Sunil Ambalavelil, Bachelor of Law, Juris Doctor in Law, are well-respected members of the legal community in the
 							United Arab Emirates, and they have worked together to establish this firm.
 						</p>
 						<p className="mb-4">
@@ -68,10 +68,10 @@ const History = () => {
 								LL.B, LLM, MBA
 							</h3>
 
-							<div className="flex flex-col md;flex-row items-stretch justify-between gap-8">
+							<div className="flex flex-col md:flex-row items-stretch justify-between gap-8">
 								<div className="md:w-1/2">
 									<p>
-										Mr. Hassan Matar Al Riyami, a prominent attorney in the United Arab Emirates, is a graduate of the Faculty of Law at the United Arab Emirates University (1989).
+										Mr. Nasser Yousuf Alkhamis, a prominent attorney in the United Arab Emirates, is a graduate of the Faculty of Law at the United Arab Emirates University (1989).
 										Since then, he has been properly registered as an attorney in the country. In addition to his law degree, he also holds a Certificate in Information (1997) and
 										has attended numerous courses with the Ministry of Justice (1989-2004) and Administrative Development Institute.
 									</p>
@@ -100,10 +100,10 @@ const History = () => {
 
 							<div className="flex flex-col md:flex-row items-stretch justify-between gap-8 mt-12">
 								<div className="md:w-1/2">
-									<p>Naser Muhyealdeen is the founding partner and director of the Dubai office of Naser Muhiealdeen & Associates.</p>
+									<p>Sunil Ambalavelil, is the founding partner and director of the Dubai office of Naser Muhiealdeen & Associates.</p>
 
 									<ul className="list-disc pl-5 md:pl-10 my-5">
-										<li>Naser Muhyealdeen holds a B.A., a B.S., and a J.D.</li>
+										<li>Sunil Ambalavelil, holds a B.A., a B.S., and a J.D.</li>
 										<li>Qualified Member of the Legal Affairs Division of the Dubai Government</li>
 										<li>Member of the UAE Rulers' Court as a Lawyer and Counsel</li>
 										<li>
@@ -114,7 +114,7 @@ const History = () => {
 									</ul>
 
 									<p>
-										Mr. Naser Muhyealdeen, B.A., B.S., J.D., of the State of California, United States, is a multilingual international attorney who delivers exceptional legal
+										Mr. Sunil Ambalavelil,, B.A., B.S., J.D., of the State of California, United States, is a multilingual international attorney who delivers exceptional legal
 										services in the area.
 									</p>
 								</div>
